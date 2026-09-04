@@ -6,6 +6,8 @@ const asyncHandler = (requestHandler) => {
 
 export {asyncHandler}
 
+
+// Try Catch way
 //const asyncHandler = (fn) => (req, res, next) => {
 //    try {
 //        await fn(req, res, next)
